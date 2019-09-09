@@ -11,6 +11,7 @@ def connection_test_ping(host, test_until):
     :param test_until: datetime until the test will be executed.
     :return:
     """
+    
     if not isinstance(host, str):
         return None
     if not isinstance(test_until, datetime.datetime):
